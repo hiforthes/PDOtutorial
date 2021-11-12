@@ -49,7 +49,7 @@ foreach ($data as $row) {
     <tr>
       <th scope="row"><?php echo $data['sample_id']; ?></th>
       <td><?php echo $data['sample_title']; ?></td>
-      <td><button>Delete</button></td>
+      <td> <a href="delete.php?sample_id=<?php echo $data['sample_id']; ?>&delete=ok"> <button>Delete</button></a></td>
       <td><button>Edit</button></td>
     </tr>
 
