@@ -36,6 +36,7 @@ foreach ($data as $row) {
 
   <body>
     <div class="container">
+    <button><a href="insert.php">Add New Data</a></button>
   <table class="table">
   <thead>
     <tr>
